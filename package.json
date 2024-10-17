@@ -10,11 +10,12 @@
   "devDependencies": {
     "@types/node": "^22.7.5",
     "@types/ws": "^8.5.12",
+    "node-simple-serve": "bryan-eslinger/node-simple-serve",
     "tsx": "^4.19.1",
     "typescript": "^5.6.3"
   },
   "scripts": {
-    "dev:client": "tsx watch src/client/serve.ts",
+    "dev:client": "simpleserve",
     "dev:server": "tsx watch src/server/index.ts"
   },
   "dependencies": {

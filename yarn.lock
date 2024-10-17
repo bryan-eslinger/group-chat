@@ -185,6 +185,12 @@ get-tsconfig@^4.7.5:
   dependencies:
     resolve-pkg-maps "^1.0.0"
 
+node-simple-serve@bryan-eslinger/node-simple-serve:
+  version "1.0.0"
+  resolved "https://codeload.github.com/bryan-eslinger/node-simple-serve/tar.gz/df8999ea8ebccb7361fb63b04b39bed0a43eaa15"
+  dependencies:
+    tsx "^4.19.1"
+
 resolve-pkg-maps@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz#616b3dc2c57056b5588c31cdf4b3d64db133720f"
