@@ -1,0 +1,21 @@
+{
+  "name": "group-chat",
+  "version": "1.0.0",
+  "description": "Web-socket based group chat app built for profit and glory...erm practice",
+  "main": "index.js",
+  "repository": "https://github.com/bryan-eslinger/group-chat",
+  "author": "Bryan Eslinger <bryan.eslinger@protonmail.com>",
+  "license": "GPL-3.0-or-later",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "dev:client": "tsx watch src/client/serve.ts"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
